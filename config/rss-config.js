@@ -79,3 +79,5 @@ export function getSourcesByCategory() {
 // 默认导出配置对象，供脚本读取
 const config = { sources, maxItemsPerFeed, dataPath };
 export default config;
+
+export { config };
