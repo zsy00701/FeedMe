@@ -57,7 +57,6 @@ export const sources = [
 ];
 
 export const maxItemsPerFeed = 30;
-// ***注意：把 dataPath 设置为 "data"（不要带 ./），以便脚本生成正确目录***
 export const dataPath = "data";
 
 export const defaultSource = sources[0];
@@ -79,5 +78,4 @@ export function getSourcesByCategory() {
 // 默认导出配置对象，供脚本读取
 const config = { sources, maxItemsPerFeed, dataPath };
 export default config;
-
 export { config };
